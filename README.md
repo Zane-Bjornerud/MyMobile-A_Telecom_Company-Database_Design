@@ -1,3 +1,4 @@
+
 # Relational Database for a Dummy Telecom Corporation, MyMobile
 This project will give you hands-on practice in designing, creating, loading and using database.
 You may implement your design using the DBMS of your choice – either MySQL, MongoDB, or Cassandra (as covered in class.) If you wish to use another DBMS (either relational or NoSQL), you MUST obtain written approval from the professor to use an alternative DBMS (such as PostgreSQL, Amazon Dynamo, Redis, Elastisearch, etc.)
