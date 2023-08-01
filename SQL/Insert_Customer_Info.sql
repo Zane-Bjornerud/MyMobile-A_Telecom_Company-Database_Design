@@ -12,3 +12,13 @@ VALUES (0001, 'Prepaid', 'Talk & Text Plus', '2019-02-20 09:13:27', 53.88, '500 
     (0003, 'Data Only', 'Data Max', '2020-09-01 03:27:49', 22.62, '10 GB of data, Unlimited texting, Data rollover'),
     (0004, 'Prepaid', 'Family Share Plus', '2022-06-15 12:01:03', 77.46, '4 lines included, 20 GB of shared data, Unlimited talk and text for all');
 
+-- add some transactions
+INSERT INTO transaction (transactionID, transactionType, transactionDate, transactionAmount, planID, customerID)
+VALUES (0001, 'Purchase', '2023-01-01', 53.88, 0001, 0004),
+    (0002, 'Refund', '2023-03-15', 91.71, 0002, 0004),
+    (0003, 'Purchase', '2023-02-10', 22.62, 0003, 0003),
+    (0004, 'Purchase', '2023-03-07', 77.46, 0004, 0003),
+    (0005, 'Purchase', '2023-04-01', 53.88, 0001, 0002),
+    (0006, 'Refund', '2023-03-21', 91.71, 0002, 0002),
+    (0007, 'Purchase', '2023-01-01', 22.62, 0003, 0001),
+    (0008, 'Purchase', '2023-04-14', 77.46, 0004, 0001);
