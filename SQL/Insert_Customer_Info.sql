@@ -34,3 +34,6 @@ VALUES (0001, '2023-05-01', '2023-05-01 01:02:03', 'International', 00.15, 0001)
     (0007, '2023-05-02', '2023-05-02 01:55:43', 'Domestic', 00.00, 0004),
     (0008, '2023-05-03', '2023-05-03 07:41:50', 'Domestic', 00.00, 0004);
 
+-- add one cancellation of a plan for a customer
+INSERT INTO cancellation (cancellationID, cancellationDate, cancellationReason, customerID)
+VALUES (0001, '2023-05-04', 'Unhappy with service.', 0001);
