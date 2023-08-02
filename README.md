@@ -70,3 +70,8 @@ The cancellation table will store information about each customer cancellation, 
 3.	Query Test
 	*	From MySQL Workbench open the **QueryCode_Output.sql** script.
 	*	Execute the script.
+
+----------------------------------------------------------------------------------
+##	<div align="center"> ER Diagram (Entity Relationship Diagram)   </div>
+####	<div align="center">The construction of the database using MySQL Workbench Model Editor  </div>
+<p align="center"> <img src="/assets/images/MyMobile-Datamodel-Diagram.png"  alt="animated" /></p>
