@@ -1,11 +1,11 @@
-# Relational Database for a Dummy Telecom Corporation, MyMobile
+ # <div align="center"> Relational Database for a Dummy Telecom Corporation, MyMobile  </div>
 This project will give you hands-on practice in designing, creating, loading and using database.
 You may implement your design using the DBMS of your choice – either MySQL, MongoDB, or Cassandra (as covered in class.) If you wish to use another DBMS (either relational or NoSQL), you MUST obtain written approval from the professor to use an alternative DBMS (such as PostgreSQL, Amazon Dynamo, Redis, Elastisearch, etc.)
 
-## Background
+## <div align="center"> Background </div>
 MyMobile provides mobile phone services to customers through various plans, such as prepaid, postpaid, and data-only plans. The company has a large customer base and provides services across different regions. Customers can choose from different plans and can make payments using various payment methods, including credit cards and electronic wallets. Customers may also choose to cancel their service at any time. The company also handles call traffic details for each customer.
 
-## Objectives
+## <div align="center"> Objectives </div>
 The goals of designing a database for the telecom company are:
 
 To store and manage customer information, plan information, and transaction information efficiently.
@@ -13,7 +13,7 @@ To track plan activations, plan renewals, plan changes, and customer cancellatio
 To provide a system that is scalable and flexible to accommodate changes in the business.
 To track call traffic details made by the customers, including call ID, call date, call duration, call type (local, national, international), and call cost.
 
-## Requirements:
+## <div align="center"> Requirements </div>
 Based on the objectives, the following requirements need to be considered while designing the MyMobile database:
 
 **Customer Information:** The database must store customer information, including name, address, phone number, email address, and date of birth.
@@ -24,7 +24,7 @@ Based on the objectives, the following requirements need to be considered while 
 
 **Call Traffic Details:** The database must store call traffic details for each customer, including call duration, call type, call date, and call cost.
 
-## Database Design:
+## <div align="center"> Database Design </div>
 Based on the requirements, the following database design is proposed:
 
 **1. Customer Entity:**
