@@ -74,4 +74,4 @@ The cancellation table will store information about each customer cancellation, 
 ----------------------------------------------------------------------------------
 ##	<div align="center"> ER Diagram (Entity Relationship Diagram)   </div>
 ####	<div align="center">The construction of the database using MySQL Workbench Model Editor  </div>
-<p align="center"> <img src="https://github.com/Zane-Bjornerud/assets/MyMobile-Datamodel-Diagram.png"  alt="animated" /></p>
+<p align="center"> <img src="/MyMobile-Datamodel-Diagram.png"  alt="animated" /></p>
