@@ -53,3 +53,20 @@ The cancellation table will store information about each customer cancellation, 
       • Add one cancellation of a plan for a customer
 ----------------------------------------------------------------------------------
 ### <div align="center">Installing Depencies </div>
+*	MySQL Workbench >= 8.0.
+*	Scripts Located in the SQL Folder
+
+----------------------------------------------------------------------------------
+
+###	<div align="center"> Download and Setup  </div> 
+1.	Database Creation
+	*	From MySQL Workbench open the **Create_DB.sql** script.
+	*	Execute the script.
+	
+2.	Customer Information
+	*	From MySQL Workbench open the **Insert_Customer_Info.sql** script.
+	*	Execute the script.
+
+3.	Query Test
+	*	From MySQL Workbench open the **QueryCode_Output.sql** script.
+	*	Execute the script.
